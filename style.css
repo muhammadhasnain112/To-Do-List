@@ -110,3 +110,9 @@ hr {
     }
 
 }
+.p{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    color: #ad70c3 !important;
+}
