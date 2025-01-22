@@ -1,0 +1,112 @@
+body {
+    background-color: #050305 !important;
+
+}
+
+* {
+    color: white !important;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    /* background-color: aqua; */
+    /* z-index: 1;
+     */
+     position: fixed;
+}
+
+main>h1 {
+    word-spacing: 30px;
+    letter-spacing: 10px;
+    color: #8f37b1 !important;
+}
+
+section {
+    height: 80%;
+    width: 80%;
+    border: 3px solid #9962ad;
+    /* box-shadow: 0px 0px 2px 2px red; */
+    box-shadow: 2px 2px 5px #36123f,
+        -2px -2px 5px #36123f,
+        -2px 2px 5px #36123f,
+        2px -2px 5px #36123f;
+        /* position: sticky; */
+        overflow-y: scroll;
+
+}
+::-webkit-scrollbar-track {
+    background-color: #050305;
+    border-radius: 20px;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #9962ad;
+    /* border-radius: 20px; */
+}
+
+::-webkit-scrollbar {
+    width: 1vw;
+}
+
+section input {
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid #8f37b1;
+    box-shadow: 2px 2px 5px #36123f,
+        -2px -2px 5px #36123f,
+        -2px 2px 5px #36123f,
+        2px -2px 5px #36123f;
+    width: 20vw;
+    height: 7vh;
+    padding: 10px;
+    margin-left: 30vw;
+    margin-top: 2vh;
+
+    background-color: #edc4fc;
+    color: black !important;
+}
+
+section a {
+    text-decoration: none;
+    font-size: 5vh;
+    color: #edc4fc !important;
+    cursor: pointer;
+    margin-top: 5vh !important;
+    /* margin-top: 10p/x !important; */
+}
+
+ul {
+    margin-top: 3vh !important;
+}
+
+ul li {
+    list-style: decimal;
+    font-size: 1.5em;
+    color: #edc4fc !important;
+    z-index: -10;
+}
+
+hr {
+    /* background-color: red; */
+    width: 95% !important;
+}
+
+
+.img {
+    height: 2rem;
+    float: right;
+    margin-left: 2vw;
+}
+
+@media(max-width :767px) {
+    li>span {
+        font-size: 1rem;
+    }
+
+    .img {
+        height: 1.5rem;
+    }
+
+}
