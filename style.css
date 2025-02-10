@@ -85,7 +85,7 @@ ul li {
     list-style: decimal;
     font-size: 1.5em;
     color: #edc4fc !important;
-    z-index: -10;
+    /* z-index: -10; */
 }
 
 hr {
